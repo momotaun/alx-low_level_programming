@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	if (strcmp(argv[0], "./size64"))
 		printf("Size of a long int: 4 byte(s)\n");
 	else
-		pritnf("Size of a long int: 8 byte(s)\n");
+		printf("Size of a long int: 8 byte(s)\n");
 	printf("Size of long long int: 8 byte(s)\n");
 	printf("Size of a float: 4 byte(s)\n");
 
