@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 		printf("Size of a long int: 4 byte(s)\n");
 	else
 		printf("Size of a long int: 8 byte(s)\n");
-	printf("Size of long long int: 8 byte(s)\n");
+	printf("Size of a long long int: 8 byte(s)\n");
 	printf("Size of a float: 4 byte(s)\n");
 
 	return (0);
