@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Program entrypoint
  *
@@ -8,9 +8,8 @@
  */
 int main(void)
 {
-	printf(
-		"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
-		);
-
+	char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	
+	write(2, mesasge, 59);
 	return(1);
 }
