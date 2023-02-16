@@ -4,7 +4,7 @@
  *
  * Description: Program that prints a hardcoded extract with some special
  * characters
- * Return 1
+ * Return Always 1 (Success)
  */
 int main(void)
 {
