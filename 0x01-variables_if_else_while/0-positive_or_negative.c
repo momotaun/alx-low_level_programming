@@ -2,7 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Program entry point
+ *
+ * Description: Program to check if number is positive or negative
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
