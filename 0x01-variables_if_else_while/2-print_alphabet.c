@@ -8,12 +8,11 @@
  */
 int main (void)
 {
-	char alphabet;
-
-	alphabet = "a";
-	while (alphabet <= "z")
+	char alphabet[26]= "abcdefghijklmnopqrstuvwxyz";
+	i = 0;
+	while (alphabet < 26)
 		putchar("%d", alphabet);
-		alphabet++;
+		i++;
 
 	putchar("\n")
 	return (0);
