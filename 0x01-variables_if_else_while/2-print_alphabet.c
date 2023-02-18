@@ -11,8 +11,8 @@ int main (void)
 	char alphabet;
 
 	alphabet = "a";
-	while (alphabet <= z)
-		putchar("%c", alphabet);
+	while (alphabet <= "z")
+		putchar("%d", alphabet);
 		alphabet++;
 
 	putchar("\n")
