@@ -12,7 +12,7 @@ int main (void)
 	int i = 0;
 
 	while (alphabet < 26)
-		putchar("%d", alphabet);
+		putchar(alphabet);
 		i++;
 
 	putchar("\n")
