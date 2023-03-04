@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-	int numbers = 10;
-	int i = 0;
+	int i = 30;
 
-	while (i < 10)
+	while (i < 40)
+	{
 		putchar(i);
+		i++;
+	}
 	putchar(10);
 	return (0);
 }
