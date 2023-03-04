@@ -31,14 +31,10 @@ int main(void)
 					l++;
 				}
 				k++;
-				l = k + 1;
 			}
-			j++;
-			k = j + 1;
+			j++;		
 		}
 		i++;
-		j = i + 1;
-		k = j + 1;
 	}
 	putchar(10);
 	return (0);
