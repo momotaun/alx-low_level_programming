@@ -23,15 +23,11 @@ int main(void)
 				{
 					putchar(i);
 					putchar(j);
+					ptuchar(32);
 					putchar(k);
-					if (i == 55 && j == 56 && k == 57)
-					{
-						k++;
-						continue;
-					}
+					putchar(l);
 					putchar(44);
-					putchar(32);
-					k++;
+					l++;
 				}
 			}
 			j++;
