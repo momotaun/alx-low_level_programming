@@ -5,7 +5,7 @@
  * main - Program entrypoint
  *
  * Description: Program to dispaly alphabets using putchar
- * Rerturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
