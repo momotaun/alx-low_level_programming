@@ -29,6 +29,8 @@ int main(void)
 					putchar(44);
 					l++;
 				}
+				k++;
+				l = k + 1;
 			}
 			j++;
 			k = j + 1;
