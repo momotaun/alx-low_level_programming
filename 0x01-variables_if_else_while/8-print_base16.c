@@ -11,15 +11,15 @@ int main(void)
 	int i = 48;
 	int j = 97;
 
-	while (i < 58)
+	while (j < 103)
 	{
-		while (j < 103)
+		while (i < 58)
 		{
-			putchar(j);
+			putchar(i);
 			i++;
 		}
 		putchar(i);
-		i++;
+		j++;
 	}
 	return (0);
 }
