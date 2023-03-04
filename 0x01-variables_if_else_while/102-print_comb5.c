@@ -44,6 +44,7 @@ int main(void)
 		}
 		i++;
 		j = 48;
+		l = 49;
 	}
 	putchar(10);
 	return (0);
