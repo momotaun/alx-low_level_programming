@@ -13,8 +13,10 @@ int main (void)
 	int i = 0;
 
 	while (strlen(alphabet) < 26)
+	{
 		putchar(alphabet[i]);
 		i++;
+	}
 
 	putchar("\n")
 	return (0);
