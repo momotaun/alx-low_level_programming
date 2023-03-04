@@ -7,7 +7,7 @@
  * Description: Program to dispaly alphabets using putchar
  * Rerturn: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
