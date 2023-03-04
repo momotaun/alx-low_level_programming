@@ -15,6 +15,7 @@ int main(void)
 	{
 		if (i == 4 || i == 23)
 		{
+			i++;
 			continue;
 		}
 		putchar(alphabets[i]);
