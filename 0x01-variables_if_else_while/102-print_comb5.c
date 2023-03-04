@@ -35,6 +35,7 @@ int main(void)
 			}
 			j++;
 			k = 48;
+			l = j + 1;
 		}
 		i++;
 		j = 48;
