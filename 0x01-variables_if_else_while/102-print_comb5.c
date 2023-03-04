@@ -44,7 +44,6 @@ int main(void)
 		}
 		i++;
 		j = 48;
-		k = i + 1;
 	}
 	putchar(10);
 	return (0);
