@@ -9,9 +9,8 @@
 int main(void)
 {
 	int i = 48;
-	int j = 48;
-	int k = 48;
-	int l = 49;
+	int j = 49;
+	int k = 50;
 
 	while (i < 58)
 	{
@@ -19,18 +18,17 @@ int main(void)
 		{
 			while (k < 58)
 			{
-				while (l < 58)
+				putchar(i);
+				putchar(j);
+				putchar(k);
+				if (i == 55 && j == 56 && k == 57)
 				{
-					putchar(i);
-					putchar(j);
-					ptuchar(32);
-					putchar(k);
-					putchar(l);
-					putchar(44);
-					l++;
+					k++;
+					continue;
 				}
+				putchar(44);
+				putchar(32);
 				k++;
-				l = k + 1;
 			}
 			j++;
 			k = j + 1;
