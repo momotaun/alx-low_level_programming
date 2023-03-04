@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - Program entrypoint
@@ -11,7 +12,7 @@ int main (void)
 	char alphabet[26]= "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	while (alphabet < 26)
+	while (strlen(alphabet) < 26)
 		putchar(alphabet);
 		i++;
 
